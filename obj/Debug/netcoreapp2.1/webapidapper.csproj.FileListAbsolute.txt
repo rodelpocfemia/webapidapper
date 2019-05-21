@@ -1,0 +1,13 @@
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\bin\Debug\netcoreapp2.1\webapidapper.deps.json
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\bin\Debug\netcoreapp2.1\webapidapper.runtimeconfig.json
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\bin\Debug\netcoreapp2.1\webapidapper.runtimeconfig.dev.json
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\bin\Debug\netcoreapp2.1\webapidapper.dll
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.csproj.CoreCompileInputs.cache
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.RazorAssemblyInfo.cache
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.RazorAssemblyInfo.cs
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.AssemblyInfoInputs.cache
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.AssemblyInfo.cs
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.RazorTargetAssemblyInfo.cache
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\bin\Debug\netcoreapp2.1\webapidapper.pdb
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.dll
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.pdb
