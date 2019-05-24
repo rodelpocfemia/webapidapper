@@ -19,6 +19,7 @@ namespace webapidapper.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Send(string sampleParam)
         {
+            //TODO endpoint, auth - retrieve from UI, save to db
             var pushEndpoint = @"https://fcm.googleapis.com/fcm/send/fcQY8aBpBUQ:APA91bHQxER48x97XDAk5P_Ahdjuka7kqRmUGI33gfqP2xLYWoN8Fhc6YYxHxINa02A77kOt-MT7WXkre2cdLpl4Cb7Rc_p7n4SKvPL-enwFVcL2ke7fEPtiB_0gOEi29H_p5_WAsJBt";
             var p256dh = @"BJLeaEQRpqNvCcxK-qoQhmTb_02zIwWY5gTal-124sE89aqE5-gM7c4xlqi-vctsY7tlbr8K9lisw9aKfUfdp_s";
             var auth = @"Vz2aZFiZ7-K6KknndrxSng";

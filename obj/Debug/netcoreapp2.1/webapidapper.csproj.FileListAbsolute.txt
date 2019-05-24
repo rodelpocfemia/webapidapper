@@ -11,3 +11,4 @@ C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\web
 C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\bin\Debug\netcoreapp2.1\webapidapper.pdb
 C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.dll
 C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.pdb
+C:\Users\rodel.ocfemia\source\repos\Docker\dotnetcorewebapi+dapper+sqlserver\webapidapper\obj\Debug\netcoreapp2.1\webapidapper.csprojAssemblyReference.cache

@@ -13,4 +13,15 @@ namespace webapidapper.Data.Models
     {
         public SampleTable Item { get; set; }
     }
+
+    public class SampleImage
+    {
+        public string ImageData { get; set; }
+        public string ImageFileName { get; set; }
+    }
+
+    public class ImageRequest
+    {
+        public SampleImage Image { get; set; }
+    }
 }

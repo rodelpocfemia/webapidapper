@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using webapidapper.Data;
 using webapidapper.Data.Models;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace webapidapper.Controllers
 {
@@ -97,6 +99,33 @@ namespace webapidapper.Controllers
             {
                 //Console.WriteLine(request.Data.Count.ToString());
                 return Ok(request);
+            }
+            catch (Exception ex)
+            {
+                //Console.WriteLine(ex.Message);
+                //return StatusCode(500);
+
+                return Ok(ex.Message);
+            }
+        }
+
+        [HttpPost("saveimage")]
+        public async Task<IActionResult> SaveImage([FromBody] ImageRequest request) //
+        {
+            try
+            {
+                byte[] imageByte = Convert.FromBase64String(request.Image.ImageData.Replace("data:image/png;base64,", string.Empty));
+
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+                var filePath = Path.Combine(path, request.Image.ImageFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await stream.WriteAsync(imageByte, 0, imageByte.Length);
+                    await stream.FlushAsync();
+                }
+                
+                return Ok();
             }
             catch (Exception ex)
             {
